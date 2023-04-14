@@ -1,10 +1,10 @@
-INSERT INTO department (name)
+INSERT INTO department (department)
 VALUES ("Human Resources"),
     ("Sales"),
     ("IT"),
     ("Payroll"),
 
-INSERT INTO role (title)
+INSERT INTO job (pos)
 VALUES ("HR Drone"),
     ("HR Manager"),
     ("Sales Bro"),
@@ -13,7 +13,7 @@ VALUES ("HR Drone"),
     ("IT Enthusiast"),
     ("Lord of Money"),
 
-INSERT INTO employee(first_name, last_name)
+INSERT INTO employee(fname, lname)
 VALUES ("Dan"),
     ("Rachel"),
     ("Bob"),

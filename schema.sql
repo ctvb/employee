@@ -6,13 +6,13 @@ USE workforce_db;
 
 CREATE TABLE department (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(30) NOT NULL
+    department VARCHAR() NOT NULL
 );
 
 
-CREATE TABLE role (
+CREATE TABLE job (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(30),
+    pos VARCHAR(),
     salary DECIMAL,
     department_id INT,
     CONSTRAINT fk_department FOREIGN KEY (department_id)
@@ -23,8 +23,8 @@ CREATE TABLE role (
 
 CREATE TABLE employee (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(30),
-    last_name VARCHAR(30),
+    fname VARCHAR(),
+    lname VARCHAR(),
     role_id INT,
     manager_id INT,
     FOREIGN KEY(role_id)
