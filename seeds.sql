@@ -1,17 +1,17 @@
--- INSERT INTO department (department)
--- VALUES ("Human Resources"),
---     ("Sales"),
---     ("IT"),
---     ("Payroll");
+INSERT INTO department (department)
+VALUES ("Human Resources"),
+    ("Sales"),
+    ("IT"),
+    ("Payroll");
 
--- INSERT INTO role (pos, salary, department_id)
--- VALUES ("HR Drone", 514.00, 1),
---     ("HR Manager", 651.00, 1),
---     ("Sales Bro", 51648.00, 2),
---     ("Head of Sales", 681681.00, 2),
---     ("IT Person", 53165.00, 3),
---     ("IT Enthusiast", 51651, 3),
---     ("Lord of Money", 6568, 4);
+INSERT INTO role (pos, salary, department_id)
+VALUES ("HR Drone", 514.00, 1),
+    ("HR Manager", 651.00, 1),
+    ("Sales Bro", 51648.00, 2),
+    ("Head of Sales", 681681.00, 2),
+    ("IT Person", 53165.00, 3),
+    ("IT Enthusiast", 51651, 3),
+    ("Lord of Money", 6568, 4);
 
 INSERT INTO employee(fname, lname, role_id, manager_id)
 VALUES ("Dan", "ghj", 1, 1),
